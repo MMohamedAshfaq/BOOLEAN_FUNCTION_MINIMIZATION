@@ -44,15 +44,17 @@ RegisterNumber:212224240090 */
 
 
 **RTL realization**
-![DE 2 EXP](https://github.com/user-attachments/assets/de50c3de-61f3-40e2-9240-91f5421746b8)
+![Exp 2](https://github.com/user-attachments/assets/c41bb677-4a23-4988-a7a4-70f79a0986e6)
 
 **Output:**
-![DE EXP 2](https://github.com/user-attachments/assets/fdec6e57-d2f4-4183-8f5d-ce63630dc1a9)
+![2ex](https://github.com/user-attachments/assets/a4ae0071-238e-4a2b-b303-fed63343f7f9)
+
 
 
 
 **Timing Diagram**
-![EXP 2 DE](https://github.com/user-attachments/assets/c89d6b92-35e4-449f-89d7-5118ba7a3ecd)
+![exp2](https://github.com/user-attachments/assets/9f1ec447-45e0-48cb-bacb-176b9d6f5e8d)
+
 
 **Result:**
 
