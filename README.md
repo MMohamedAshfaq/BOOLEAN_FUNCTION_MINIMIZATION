@@ -32,10 +32,18 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
-module funct1(a,b,c,d,f1);
-input a,b,c,d;
-output f1;
-assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+module boolean(A,B,C,D,F1,w,x,y,z,F2);
+input A,B,C,D,w,x,y,z;
+output F1,F2;
+wire x1,x2,x3,x4,x5,x6;
+assign x1=(~B)&(~D);
+assign x2=A&B&(~C);
+assign x3=(~A)&(B)&(D);
+assign x4=(~x)&(z);
+assign x5=(x)&(y);
+assign x6=(w)&(y);
+assign F1=x1|x2|x3;
+assign F2=x4|x5|x6;
 endmodule
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
